@@ -9,34 +9,36 @@
 </head>
 <body>
     <div class="container">
-        <div class="screen"></div>
+        <form>
+            <input type="text" class="screen">
+        </form>
         <div class="buttons">
             <div class="buttons-top">
                 <div class="button clear">AC</div>
-                <div class="button operation">÷</div>
+                <div class="button operation" data-num="/">÷</div>
             </div>
             <div class="buttons-regular">
-                <div class="button">7</div>
-                <div class="button">8</div>
-                <div class="button">9</div>
-                <div class="button operation">×</div>
+                <div class="button" data-num="7">7</div>
+                <div class="button" data-num="8">8</div>
+                <div class="button" data-num="9">9</div>
+                <div class="button operation" data-num="*">×</div>
             </div>
             <div class="buttons-regular">
-                <div class="button">4</div>
-                <div class="button">5</div>
-                <div class="button">6</div>
-                <div class="button operation">-</div>
+                <div class="button" data-num="4">4</div>
+                <div class="button" data-num="5">5</div>
+                <div class="button" data-num="6">6</div>
+                <div class="button operation" data-num="-">-</div>
             </div>
             <div class="buttons-regular">
-                <div class="button">1</div>
-                <div class="button">2</div>
-                <div class="button">3</div>
-                <div class="button operation">+</div>
+                <div class="button" data-num="1">1</div>
+                <div class="button" data-num="2">2</div>
+                <div class="button" data-num="3">3</div>
+                <div class="button operation" data-num="+">+</div>
             </div>
             <div class="buttons-bottom">
-                <div class="button zero">0</div>
-                <div class="button">.</div>
-                <div class="button operation">=</div>
+                <div class="button zero" data-num="0">0</div>
+                <div class="button" data-num=".">.</div>
+                <div class="operation equal">=</div>
             </div>
         </div>
     </div>
